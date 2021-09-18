@@ -1,0 +1,63 @@
+[user]
+	email = victor.devv@gmail.com
+	name = Victim
+[core]
+	editor = vim
+[web]
+	browser = google-chrome
+[color]
+	ui = auto
+[alias]
+	aa = add --all
+	ai = add -i
+	##############
+	br = branch
+	brd = branch -D
+	brm = branch -M
+	##############
+	co = checkout
+	cob = checkout -b
+	caa = commit -a --amend
+	cm = commit -m
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	##############
+	d = diff
+	##############
+	f = fetch
+	fo = fetch origin
+	##############
+	l = log --oneline
+	lg = log --all --decorate --oneline --graph
+	##############
+	m = merge
+	ma = merge --abort
+	mc = merge --continue
+	ms = merge --skip
+	##############
+	pl = pull --rebase
+	ps = push
+	psf = push -f
+	psu = push -u origin
+	##############
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbs = rebase --skipt
+	rbi = rebase -i
+	re = reset
+	reh = reset --hard
+	res = reset --soft
+	rt = remote
+	rta = remote add origin
+	rtr = remote remove origin
+	rtp = remote prune origin
+	rmc = rm --cached
+	##############
+	st = status
+	stb = status -s -b
+	sa = stash apply
+	sc = stash clear
+	sp = stash pop
+	sl = stash list
