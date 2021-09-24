@@ -57,7 +57,8 @@
 	##############
 	st = status
 	stb = status -s -b
-	sa = stash apply
-	sc = stash clear
-	sp = stash pop
-	sl = stash list
+	sh = stash
+	sha = stash apply
+	shc = stash clear
+	shp = stash pop
+	shl = stash list
