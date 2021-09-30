@@ -50,6 +50,7 @@
 	reh = reset --hard
 	res = reset --soft
 	rt = remote
+	rtv = remote -v
 	rta = remote add origin
 	rtr = remote remove origin
 	rtp = remote prune origin
