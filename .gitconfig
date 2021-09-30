@@ -12,6 +12,7 @@
 	ai = add -i
 	##############
 	br = branch
+	bru = branch -u
 	brd = branch -D
 	brm = branch -M
 	##############
