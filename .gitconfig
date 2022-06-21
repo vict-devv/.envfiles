@@ -9,3 +9,5 @@
 	lg = log --graph --pretty=format:'%C(auto)%h -%C(auto)%d %s %C(cyan)%an %C(green)%cr' --abbrev-commit --date=relative
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
