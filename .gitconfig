@@ -22,7 +22,7 @@
 	aa = add --all
 	st = status
 	cm = commit
-	cma = commit --ammend
+	cma = commit --amend
 [pull]
 	rebase = true
 [init]
