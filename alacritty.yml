@@ -3,70 +3,59 @@ env:
   # xterm-256color avoid break some zsh plugins
   TERM: xterm-256color
 
-# Window Dimensions
+# Window
 window:
-  dimensions:
-    columns: 128
-    lines: 48
-
-  padding:
-    x: 3
-    y: 3
-
+  startup_mode: "Maximized"
   opacity: 0.95
   title: "Alacritty"
   dynamic_title: true
 
-# Scrolling Config
-scrolling:
-  history: 10000
-  multiplier: 3
+# Theme
+colors:
+  primary:
+      background: '0x1a1b26'
+      foreground: '0xa9b1d6'
+  # Normal colors
+  normal:
+    black:   '0x32344a'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xad8ee6'
+    cyan:    '0x449dab'
+    white:   '0x787c99'
+
+  # Bright colors
+  bright:
+    black:   '0x444b6a'
+    red:     '0xff7a93'
+    green:   '0xb9f27c'
+    yellow:  '0xff9e64'
+    blue:    '0x7da6ff'
+    magenta: '0xbb9af7'
+    cyan:    '0x0db9d7'
+    white:   '0xacb0d0'
 
 # Font Config
 font:
   normal:
-    family: "Hack Nerd Font"
+    family: "FiraCode Nerd Font Mono"
     style: Regular
 
   bold:
-    family: "Hack Nerd Font"
+    family: "FiraCode Nerd Font Mono"
     style: Bold
 
   italic:
-    family: "Hack Nerd Font"
+    family: "FiraCode Nerd Font Mono"
     style: Italic
 
   bold_italic:
-    family: "Hack Nerd Font"
+    family: "FiraCode Nerd Font Mono"
     style: Bold Italic
 
   size: 11
-
-# Color Theme - One Dark
-colors:
-  primary:
-    background: "0x1e2127"
-    foreground: "0xabb2bf"
-
-  normal:
-    black:   "0x1e2127"
-    red:     "0xe06c75"
-    green:   "0x98c379"
-    yellow:  "0xd19a66"
-    blue:    "0x61afef"
-    magenta: "0xc678dd"
-    cyan:    "0x56b6c2"
-    white:   "0xabb2bf"
-
-  bright:
-    black:   "0x5c6370"
-    red:     "0xe06c75"
-    green:   "0x98c379"
-    yellow:  "0xd19a66"
-    blue:    "0x61afef"
-    magenta: "0xc678dd"
-    cyan:    "0x56b6c2"
-    white:   "0xffffff"
 
 # Cursor Config
 cursor:
@@ -74,6 +63,11 @@ cursor:
     shape: Underline
     blinking: On
     blink_interval: 750
+
+# Scrolling Config
+scrolling:
+  history: 10000
+  multiplier: 3
 
 # Other Settings
 selection:
@@ -83,7 +77,3 @@ shell:
   program: /usr/bin/zsh
 
 live_config_reload: true
-
-# Key Bindings
-key_bindings:
-  - { key: N, mods: Super|Shift, action: SpawnNewInstance }
