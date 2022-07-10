@@ -22,7 +22,7 @@
 	mgs = merge --skip
 	aa = add --all
 	st = status
-	cm = commit
+	cm = commit -m
 	cma = commit --amend
 [pull]
 	rebase = true
