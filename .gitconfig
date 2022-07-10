@@ -10,6 +10,7 @@
 	br = branch
 	co = checkout
 	ps = push
+	psf = push -f
 	rb = rebase
 	rba = rebase --abort
 	rbc = rebase --continue
